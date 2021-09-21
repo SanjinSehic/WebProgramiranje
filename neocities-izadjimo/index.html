@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>izadjimo</title>
+    <link rel="icon" href="images/martini.jpg" type="image/x-icon"/>
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+        integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <style media="screen">
+      .loader {
+        display: none;
+      }
+      .lds-dual-ring {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 46px;
+        height: 46px;
+        margin: 1px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        border-color: rgb(255, 41, 41) transparent rgb(255, 41, 41) transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+      @keyframes lds-dual-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <!-- zima zima -->
+  <div id="snowflakeContainer">
+    <p class="snowflake">*</p>
+  </div>
+
+  <div class="lds-dual-ring"></div>
+
+  <div class="loader">
+
+
+    <!-- navigation bar/header -->
+    <div class="navbar">
+        <div class="navbarLijevo">
+            <a href="index.html">izadjimo</a>
+        </div>
+        <div class="navbarDesno">
+            <a href="login.html" class="dugmeLogin">Login</a>
+            <a href="register.html">Register</a>
+            <input type="search" name="search" id="search">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+
+    <div class="ad">
+      <a href="https://culturedcode.com/things/" target="_blank"><img src="images/things.png" alt=""></a>
+    </div>
+
+    <div class="content">
+      <div class="restoran">
+        <div class="ime">
+          <a href="pub.html"><h1>PUB</h1></a>
+        </div>
+        <div class="slicica">
+          <i class="fas fa-beer"></i>
+        </div>
+        <div class="opis">
+          <p>64 PUBA</p>
+        </div>
+      </div>
+
+      <div class="restoran2">
+        <div class="ime2">
+          <a href="restoran.html"><h1>RESTORAN</h1></a>
+        </div>
+        <div class="slicica2">
+          <i class="fas fa-wine-glass"></i>
+        </div>
+        <div class="opis2">
+          <p>34 RESTORANA</p>
+        </div>
+      </div>
+
+      <div class="restoran">
+        <div class="ime">
+          <a href="shisha.html"><h1>SHISHA</h1></a>
+        </div>
+        <div class="slicica">
+          <i class="fas fa-bong"></i>
+        </div>
+        <div class="opis">
+          <p>112 SHISHA BAROVA</p>
+        </div>
+      </div>
+
+      <div class="restoran2">
+        <div class="ime2">
+          <a href="disco.html"><h1>KLUB</h1></a>
+        </div>
+        <div class="slicica2">
+          <i class="fas fa-compact-disc"></i>
+        </div>
+        <div class="opis2">
+          <p>28 KLUBOVA</p>
+        </div>
+      </div>
+
+      <div class="restoran">
+        <div class="ime">
+          <a href="coffee.html"><h1>COFFEE</h1></a>
+        </div>
+        <div class="slicica">
+          <i class="fas fa-coffee"></i>
+        </div>
+        <div class="opis">
+          <p>22 COFFEE SHOPA</p>
+        </div>
+    </div>
+
+    <div class="restoran2">
+      <div class="ime2">
+        <a href="kino.html"><h1>KINO</h1></a>
+      </div>
+      <div class="slicica2">
+        <i class="fas fa-film"></i>
+      </div>
+      <div class="opis2">
+        <p>4 KINA</p>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-angle-up"></i></button>
+
+    <!-- poslije vratiti footer na visible -->
+    <footer>
+      <h1>izadjimo &#174;</h1>
+      <div class="linkovi">
+        <div class="socMreze">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+        </div>
+        <div class="Dokumentacija">
+          <a href="https://docdro.id/8YGFTjU">Dokumentacija Baza</a>
+          <a href="https://docdro.id/LbEjjUK">Dokumentacija Web</a>
+        </div>
+        <div class="MStim">
+          <p>Team: MS</p>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="BrojacPosjeta">
+        <a href='https://www.free-counters.org/'>free-counters.org</a>
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7db99e982ac004d422c6c2aeed311c885cec7e1b'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/455742/t/5"></script>
+      </div>
+      <div class="FensiDodatak">
+        <p>&#169; Projekat WEB programiranje - TEAM: MS - Sarajevo 2018. god. PMF Sarajevo</p>
+      </div>
+    </footer>
+  </div>
+    <script src="js/loader.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/fallingsnow_v6.js"></script>
+    <script src="js/provjeraKorisnika.js" charset="utf-8"></script>
+</body>
+</html>

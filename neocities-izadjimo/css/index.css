@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(245,245,245);
+}
+
+.ad {
+  width: 100%;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.ad img {
+  width: 100%;
+}
+
+footer {
+    height: 190px;
+    background-color: rgb(255, 41, 41);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer h1 {
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 28px;
+  color: rgb(245, 245, 245);
+}
+
+footer .linkovi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .fab {
+  color: rgb(245, 245, 245);
+}
+
+.linkovi div {
+  width: 30%;
+}
+
+.Dokumentacija {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Dokumentacija a {
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+  font-family: "Roboto";
+
+}
+
+.socMreze {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socMreze a {
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+.MStim p, .MStim a {
+  margin: 0;
+  font-family: "Roboto";
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+  text-align: center;
+}
+
+.FensiDodatak p {
+  font-family: "Roboto";
+  color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.restoran {
+  width: 100%;
+  background-color: rgb(245,245,245);
+  font-style: "Roboto";
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.restoran div {
+  width: 30%;
+}
+
+.ime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  color: rgb(65,65,65);
+  font-size: 28px;
+}
+
+.slicica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(65,65,65);
+
+}
+
+.slicica i {
+  font-size: 130px;
+}
+
+.opis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  color: rgb(65,65,65);
+  font-size: 34px;
+  text-align: center;
+}
+
+.restoran2 {
+  width: 100%;
+  background-color: rgb(65,65,65);
+  font-style: "Roboto";
+  height: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.restoran2 div {
+  width: 30%;
+}
+
+.ime2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  color: rgb(245,245,245);
+  font-size: 28px;
+}
+
+.ime2:hover, .ime:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.slicica2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(245,245,245);
+
+}
+
+.slicica2 i {
+  font-size: 130px;
+}
+
+.opis2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  color: rgb(245,245,245);
+  font-size: 34px;
+  text-align: center;
+}
+
+.opis p, .opis2 p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.restoran a {
+  text-decoration: none;
+  color: rgb(65,65,65);
+}
+
+.restoran2 a {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 60%;
+  margin-top: 60px;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+.BrojacPosjeta {
+  text-align: center;
+}
